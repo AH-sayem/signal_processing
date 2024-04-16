@@ -1,0 +1,8 @@
+clc 
+close all 
+clear all 
+
+syms w t ;
+F=exp(-w^2/4);
+f=ifourier(F);
+
